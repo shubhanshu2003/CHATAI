@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider}from "react-router-dom";
-import Homepage from './components/homepage/HomePage.jsx';
-import DashboardPage from './components/dashboardPage/DashboardPage.jsx';
-import ChatPage from './components/chatPage/ChatPage.jsx';
+import Homepage from './routes/homepage/HomePage.jsx';
+import DashboardPage from './routes/dashboardPage/DashboardPage.jsx';
+import ChatPage from './routes/chatPage/ChatPage.jsx';
 import RootLayout from './layouts/rootLayout/RootLayout.jsx';
 import DashboardLayout from './layouts/dashboardLayout/DashboardLayout.jsx';
 import { SignIn, SignUp } from '@clerk/clerk-react';
-import SignInPage from './components/signinPage/SigninPage.jsx';
-import SignUpPage from './components/signupPage/SignupPage.jsx';
+import SignInPage from './routes/signinPage/SigninPage.jsx';
+import SignUpPage from './routes/signupPage/SignupPage.jsx';
 
 
 const router = createBrowserRouter([

@@ -15,7 +15,7 @@ module.exports = {
     "react/prop-types": "off",
     "no-unused-vars": "warn",
     'react/jsx-no-target-blank': 'off',
-    'react-refresh/only-export-components': [
+    'react-refresh/only-export-routes': [
       'warn',
       { allowConstantExport: true },
     ],
